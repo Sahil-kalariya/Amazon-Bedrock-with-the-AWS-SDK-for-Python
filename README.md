@@ -84,7 +84,6 @@ def getResponse():
     )
     # Process the response
     result = json.loads(response["body"].read())
-    print(result)
     generated_text = "".join([output["text"] for output in result["content"]])
     print(f"Response: {generated_text}")
 
