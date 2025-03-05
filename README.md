@@ -2,7 +2,7 @@
 Build generative AI applications on Amazon Bedrock with the AWS SDK for Python (Boto3)
 
 # Requirements
-AWS account with access to bedrock models
+AWS account with access to bedrock models in us-east-1
 
 IAM user with appropriate permissions to access models
 
